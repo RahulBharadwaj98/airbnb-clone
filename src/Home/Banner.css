@@ -1,0 +1,39 @@
+.banner {
+  height: 80vh;
+  background: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=2560")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.banner .banner_text {
+  position: absolute;
+  top: 50%;
+  width: fit-content;
+  left: 45%;
+  font-size: larger;
+}
+
+.banner > button {
+  top: 55%;
+  width: fit-content;
+  left: 47%;
+  color: purple-500;
+  background: white;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: inherit;
+  color: purple;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.banner > button:hover {
+  background: white;
+}

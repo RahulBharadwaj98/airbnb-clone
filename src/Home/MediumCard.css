@@ -1,0 +1,23 @@
+.medium_card_image > img {
+  position: relative;
+  height: 23rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+}
+
+.medium_card_text .medium_card_text_title {
+  margin: 0px;
+  margin-top: 0.75rem;
+}
+
+.medium_cards {
+  cursor: pointer;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.medium_cards:hover {
+  transform: scaleX(1.05);
+  transform: scaleY(1.05);
+  transition: ease-out 300ms;
+}

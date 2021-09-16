@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+  row-gap: 20px;
+  padding-bottom: 4rem;
+  max-width: 101rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_div {
+  background-color: whitesmoke;
+  margin-top: 4rem;
+}
+
+.about {
+  display: grid;
+  row-gap: 20px;
+}
+
+.community {
+  display: grid;
+  row-gap: 20px;
+}
+
+.host {
+  display: grid;
+  row-gap: 20px;
+}
+.support {
+  display: grid;
+  row-gap: 20px;
+}

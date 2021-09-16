@@ -1,0 +1,49 @@
+.large_card_image {
+  position: relative;
+}
+
+.large_card_image > img {
+  border-radius: 0.5rem;
+  height: 30rem;
+  width: 100%;
+  min-width: 300px;
+}
+
+.large_card_section {
+  position: relative;
+  margin-top: 1.25rem;
+  cursor: pointer;
+}
+
+.card_elements {
+  position: absolute;
+  top: 8rem;
+}
+
+.card_elements .card_element_title {
+  color: white;
+  margin-left: 5rem;
+  font-size: xx-large;
+}
+.card_elements .card_element_description {
+  color: white;
+  margin-left: 0;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  font-size: large;
+}
+
+.card_elements .card_element_button {
+  background-color: white;
+  margin-left: 0;
+  margin-left: 5rem;
+  top: 3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  width: 10rem;
+}
+
+.card_elements .card_element_button:hover {
+  background-color: white;
+}
