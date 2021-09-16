@@ -1,0 +1,59 @@
+.explore_nearby > h2 {
+  font-size: xx-large;
+  padding-bottom: 5px;
+}
+
+.explore_nearby {
+  padding-top: 25px;
+}
+
+.main {
+  max-width: 101rem;
+  margin: auto;
+}
+
+.main .small_card_div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: scroll;
+}
+
+.live_anywhere > h2 {
+  font-size: xx-large;
+  padding-bottom: 5px;
+}
+
+.live_anywhere {
+  padding-top: 25px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.medium_card_div {
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.medium_card_div::-webkit-scrollbar {
+  display: none;
+}
+
+.small_card_div::-webkit-scrollbar {
+  display: none;
+}
+
+.discover_things {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.discover {
+  padding-top: 25px;
+}
+
+.discover > h2 {
+  font-size: xx-large;
+  padding-bottom: 5px;
+}

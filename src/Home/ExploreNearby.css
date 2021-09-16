@@ -1,0 +1,16 @@
+.discover_card_image > img {
+  border-radius: 0.5rem;
+}
+
+.discover_card_image {
+  cursor: pointer;
+}
+
+.discover_card_image .discover_title {
+  margin: 0px;
+  margin-top: 0.75rem;
+}
+
+.discover_card_image .discover_desc {
+  margin-top: 0.5rem;
+}

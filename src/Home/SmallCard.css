@@ -1,0 +1,31 @@
+.small_card_image > img {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+}
+
+.small_cards {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  margin-top: 1.25rem;
+  cursor: pointer;
+}
+
+.small_cards .small_card_text > h2,
+h3 {
+  margin-left: 1.5rem;
+}
+
+.small_cards:hover {
+  background: whitesmoke;
+  border-radius: 0.75rem;
+  transform: scaleX(1.05);
+  transform: scaleY(1.05);
+  transition: ease-out 200ms;
+}
+
+.small_card_text .sub_header {
+  color: darkgray;
+}
